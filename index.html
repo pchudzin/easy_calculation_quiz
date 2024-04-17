@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    <head>
+        <meta charset="utf-8">
+        <title>Easy Calculation Quiz</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/gauge.min.js"></script>
+    </head>
+    <body>
+        <main>
+            <form id="quizForm">
+                <h2>Calculation quiz</h2>
+                <hr>
+                <table>
+                    <tr>
+                        <td class="ingredients"><span>=</span></td>
+                        <td class="answer">
+                            <input type="number" class="subtractInput">
+                        </td>
+                        <td class="space"></td>
+                        <td class="ingredients_2"><span>=</span></td>
+                        <td class="answer_2">
+                            <input type="number" class="additionInput">
+                        </td>
+                        <td class="space"></td>
+                        <td class="ingredients_3"><span>=</span></td>
+                        <td class="answer_3">
+                            <input type="number" class="multiplyInput">
+                        </td>
+                        <td class="space"></td>
+                        <td class="ingredients_4"><span>=</span></td>
+                        <td class="answer_4">
+                            <input type="number" class="multiplyInput_2">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ingredients"><span>=</span></td>
+                        <td class="answer">
+                            <input type="number" class="subtractInput">
+                        </td>
+                        <td class="space"></td>
+                        <td class="ingredients_2"><span>=</span></td>
+                        <td class="answer_2">
+                            <input type="number" class="additionInput">
+                        </td>
+                        <td class="space"></td>
+                        <td class="ingredients_3"><span>=</span></td>
+                        <td class="answer_3">
+                            <input type="number" class="multiplyInput">
+                        </td>
+                        <td class="space"></td>
+                        <td class="ingredients_4"><span>=</span></td>
+                        <td class="answer_4">
+                            <input type="number" class="multiplyInput_2">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ingredients"><span>=</span></td>
+                        <td class="answer">
+                            <input type="number" class="subtractInput">
+                        </td>
+                        <td class="space"></td>
+                        <td class="ingredients_2"><span>=</span></td>
+                        <td class="answer_2">
+                            <input type="number" class="additionInput">
+                        </td>
+                        <td class="space"></td>
+                        <td class="ingredients_3"><span>=</span></td>
+                        <td class="answer_3">
+                            <input type="number" class="multiplyInput">
+                        </td>
+                        <td class="space"></td>
+                        <td class="ingredients_4"><span>=</span></td>
+                        <td class="answer_4">
+                            <input type="number" class="multiplyInput_2">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ingredients"><span>=</span></td>
+                        <td class="answer">
+                            <input type="number" class="subtractInput">
+                        </td>
+                        <td class="space"></td>
+                        <td class="ingredients_2"><span>=</span></td>
+                        <td class="answer_2">
+                            <input type="number" class="additionInput">
+                        </td>
+                        <td class="space"></td>
+                        <td class="ingredients_3"><span>=</span></td>
+                        <td class="answer_3">
+                            <input type="number" class="multiplyInput">
+                        </td>
+                        <td class="space"></td>
+                        <td class="ingredients_4"><span>=</span></td>
+                        <td class="answer_4">
+                            <input type="number" class="multiplyInput_2">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ingredients"><span>=</span></td>
+                        <td class="answer">
+                            <input type="number" class="subtractInput">
+                        </td>
+                        <td class="space"></td>
+                        <td class="ingredients_2"><span>=</span></td>
+                        <td class="answer_2">
+                            <input type="number" class="additionInput">
+                        </td>
+                        <td class="space"></td>
+                        <td class="ingredients_3"><span>=</span></td>
+                        <td class="answer_3">
+                            <input type="number" class="multiplyInput">
+                        </td>
+                        <td class="space"></td>
+                        <td class="ingredients_4"><span>=</span></td>
+                        <td class="answer_4">
+                            <input type="number" class="multiplyInput_2">
+                        </td>
+                    </tr>
+                </table>
+                <hr>
+            </form>
+            <div id="score">
+                <span id="scoreLabel">Score </span><span id="scoreSpan"></span><span id="span_20"></span><span id="percentageScoreLabel">Percentage Score </span><span id="percentageScoreSpan"></span>
+                <div>
+                    <span id="scoreTimeLabel">Time </span><span id="scoreTimeSpan"></span>
+                </div>
+            </div>
+            <div id="speed">
+                <div class="inline_block absolute top_abs" id="speedLabel">Speed</div>
+                <div class="inline_block absolute left_abs">
+                    <canvas id="gaugeChart"></canvas>
+                    <div id="markSpeed"></div>
+                </div>
+            </div>
+        </main>
+        <script src="js/script.js"></script>
+    </body>
+</html>

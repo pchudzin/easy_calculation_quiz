@@ -1,0 +1,109 @@
+body{
+    background-color: #eee;
+    font-size: 20px;
+    font-family: monospace;
+}
+main{
+    width: 975px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 10px;
+    min-height: 690px;
+    box-shadow: rgba(95, 88, 76, 0.3) 0 1px 2px 0, rgba(95, 88, 76, 0.15) 0 2px 6px 2px;
+    margin-bottom: 60px;
+}
+#quizForm{
+    padding: 0px 18px;
+}
+hr{
+    border: 0;
+    border-top: 1px solid #e0e0e0;
+}
+table{
+    border-collapse: collapse;
+    font-size: 27px;
+}
+table td{
+    border: none;
+    height: 50px;
+}
+.ingredients, .ingredients_2, .ingredients_3, .ingredients_4{
+    position: relative;
+    padding-right: 25px;
+}
+.ingredients_4{
+    width: 144px;
+    padding-right: 0;
+}
+.answer, .answer_2, .answer_3{
+    width: 35px;
+    border: none;
+    text-align: center;
+}
+input{
+    width: 60px;
+    height: 32px;
+    margin-left: 7px;
+    font-size: 27px;
+    font-family: monospace;
+    text-align: center;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+input[type="number"]:focus, 
+input[type="number"]:hover {
+    -moz-appearance: textfield;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+}
+input:focus-visible {
+    outline: 2px solid rgb(0, 94, 255);
+    border-radius: 1px;
+    border: 1px solid #fff;
+}
+.space{
+    width: 20px;
+    border: none;
+}
+.ingredients span, .ingredients_2 span, .ingredients_3 span, .ingredients_4 span{
+    position: absolute;
+    right: 0;
+}
+#score{
+    padding-top: 20px;
+    padding-left: 20px;
+    visibility: hidden;
+}
+#score div{
+    margin-top: 50px;
+}
+#scoreLabel, #percentageScoreLabel, #scoreTimeLabel, #speedLabel{
+    font-weight: bold;
+}
+#percentageScoreLabel{
+    padding-left: 30px;
+}
+.inline_block{
+    display: inline-block;
+}
+#speed{
+    position: relative;
+    padding-left: 20px;
+    visibility: hidden;
+}
+.absolute{
+    position: absolute;
+}
+.top_abs{
+    top: 51px;
+}
+.left_abs{
+    left: 129px;
+}
+#markSpeed{
+    text-align: center;
+}
