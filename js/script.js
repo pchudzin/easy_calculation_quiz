@@ -145,9 +145,9 @@ const scoreTimeSpan = document.getElementById("scoreTimeSpan");
 
                 const end = Date.now();
                 const elapsed = Math.floor( (end - start) / 1000 );
-                const seconds = elapsed % 60;
-                const minutes = Math.floor( elapsed / 60 );
-                const hours = Math.floor( elapsed / 3600 );
+                let seconds = elapsed % 60;
+                let minutes = Math.floor( (elapsed / 60) % 60 );
+                let hours = Math.floor( (elapsed / 3600) % 60 );
                 if(hours===0){
                     if(minutes===0){
                         scoreTimeSpan.innerHTML = seconds + "s";
